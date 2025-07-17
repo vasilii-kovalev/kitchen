@@ -17,6 +17,7 @@ Development status: in progress
 * [Redux Toolkit](https://redux-toolkit.js.org)
 * [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
 * [TypeScript](https://www.typescriptlang.org)
+* [Valibot](https://valibot.dev)
 * [Vite](https://vite.dev)
 
 ### Server
@@ -30,7 +31,6 @@ Development status: in progress
 * [Bun](https://bun.sh)
 * [Fastify](https://fastify.dev)
 * [Prisma](https://www.prisma.io)
-* [SQLite](https://www.sqlite.org)
 * [TypeScript](https://www.typescriptlang.org)
 
 ## License

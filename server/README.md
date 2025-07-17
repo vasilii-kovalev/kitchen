@@ -7,7 +7,6 @@ Development status: in progress
 * [Bun](https://bun.sh)
 * [Fastify](https://fastify.dev)
 * [Prisma](https://www.prisma.io)
-* [SQLite](https://www.sqlite.org)
 * [TypeScript](https://www.typescriptlang.org)
 
 ## Setup
