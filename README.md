@@ -4,13 +4,13 @@ Recipes and ingredients management application (for learning purposes).
 
 ## Applications
 
-### Application 01
+### application-01
 
 [Location](./application-01)
 
 Development status: in progress
 
-## Technologies
+#### Technologies
 
 * [Bun](https://bun.sh)
 * [CSS Modules](https://github.com/css-modules/css-modules)
@@ -22,7 +22,7 @@ Development status: in progress
 * [Valibot](https://valibot.dev)
 * [Vite](https://vite.dev)
 
-### Server
+### server
 
 [Location](./server)
 
