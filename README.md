@@ -1,5 +1,7 @@
 # Kitchen
 
+Recipes and ingredients management application (for learning purposes).
+
 ## Applications
 
 ### Application 01
