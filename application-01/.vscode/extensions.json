@@ -1,9 +1,0 @@
-{
-	"recommendations": [
-		"clinyong.vscode-css-modules",
-		"EditorConfig.EditorConfig",
-		"dbaeumer.vscode-eslint",
-		"DavidAnson.vscode-markdownlint",
-		"stylelint.vscode-stylelint"
-	]
-}

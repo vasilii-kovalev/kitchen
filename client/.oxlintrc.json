@@ -1,0 +1,53 @@
+{
+	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"plugins": ["import", "jsx-a11y", "oxc", "promise", "regex", "typescript", "unicorn", "vitest"],
+	"categories": {
+		"correctness": "error",
+		"pedantic": "error",
+		"perf": "error",
+		"restriction": "error",
+		"style": "error",
+		"suspicious": "error"
+	},
+	"rules": {
+		// Body in functions is always used for consistency.
+		"arrow-body-style": ["error", "always"],
+		// Currently, the rule is too strict, and doesn't take a type set to the whole function into account.
+		// TODO: change the severity to "error" when the rule becomes more configurable.
+		"explicit-function-return-type": "warn",
+		"typescript/consistent-type-imports": "warn",
+		// Named exports are preferred.
+		"import/prefer-default-export": "off",
+		/*
+			Disabled in favor of `import/no-duplicates`.
+			See more info here: https://github.com/eslint/eslint/issues/13669#issuecomment-690837510
+		*/
+		"no-duplicate-imports": "off",
+		// Excluding the most common cases.
+		"no-magic-numbers": [
+			"error",
+			{
+				"ignore": [0, 1, -1]
+			}
+		],
+		// A task for a formatter.
+		"sort-imports": "off"
+	},
+	"ignorePatterns": ["src/vite-env.d.ts"],
+	"overrides": [
+		{
+			"files": ["vite.config.ts"],
+			"rules": {
+				// Vite requires the config to be exported using default export.
+				"import/no-default-export": "off"
+			}
+		},
+		{
+			"files": ["src/index.tsx"],
+			"rules": {
+				// No need a generic query selector to select the root element.
+				"prefer-query-selector": "off"
+			}
+		}
+	]
+}
