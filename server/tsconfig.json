@@ -1,15 +1,13 @@
 {
 	"compilerOptions": {
-		"allowImportingTsExtensions": false,
-		// For JavaScript configs.
+		"allowImportingTsExtensions": true,
 		"allowJs": true,
-		"isolatedModules": true,
 		"lib": [
 			"ESNext"
 		],
 		"module": "ESNext",
 		"moduleDetection": "force",
-		"moduleResolution": "Node",
+		"moduleResolution": "bundler",
 		"noEmit": true,
 		"noUncheckedIndexedAccess": true,
 		"paths": {
@@ -19,11 +17,12 @@
 		},
 		"skipLibCheck": true,
 		"strict": true,
-		"target": "ESNext"
+		"target": "ESNext",
+		"verbatimModuleSyntax": true
 	},
 	"include": [
 		"src",
 		"index.ts",
-		"eslint.config.js"
+		"eslint.config.ts"
 	]
 }

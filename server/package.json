@@ -11,7 +11,7 @@
 		"prisma:studio": "prisma studio",
 		"start": "bun --hot ./index.ts",
 		"check:types": "tsc --noEmit",
-		"check:eslint": "eslint . --quiet"
+		"check:eslint": "bun --bun eslint . --quiet"
 	},
 	"dependencies": {
 		"@fastify/swagger": "9.5.1",
@@ -23,7 +23,7 @@
 	"devDependencies": {
 		"@eslint/js": "9.28.0",
 		"@stylistic/eslint-plugin": "4.4.1",
-		"@types/bun": "1.2.15",
+		"@types/bun": "1.2.19",
 		"eslint": "9.28.0",
 		"eslint-import-resolver-typescript": "4.4.3",
 		"eslint-plugin-import-export-newline": "1.0.0",
@@ -31,6 +31,9 @@
 		"eslint-plugin-simple-import-sort": "12.1.1",
 		"prisma": "6.9.0",
 		"typescript-eslint": "8.33.1"
+	},
+	"peerDependencies": {
+		"typescript": "5.8.3"
 	},
 	"prisma": {
 		"seed": "bun ./src/db/seed.ts"

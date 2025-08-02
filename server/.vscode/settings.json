@@ -10,5 +10,10 @@
 		"source.fixAll.eslint": "explicit",
 		"source.fixAll.markdownlint": "explicit"
 	},
+	/*
+		Necessary to support ESLint TypeScript config file.
+		More info: https://github.com/microsoft/vscode-eslint/issues/1917#issuecomment-3059655482
+	*/
+	"eslint.runtime": "bun",
 	"typescript.tsdk": "node_modules\\typescript\\lib"
 }

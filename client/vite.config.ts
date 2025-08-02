@@ -7,6 +7,7 @@ import unoCSS from "unocss/vite";
 // https://vitejs.dev/config
 const config = defineConfig({
 	build: {
+		// Required for Sonda.
 		sourcemap: true,
 	},
 	plugins: [
