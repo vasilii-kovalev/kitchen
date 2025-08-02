@@ -1,8 +1,8 @@
 {
 	"recommendations": [
-		"EditorConfig.EditorConfig",
-		"dbaeumer.vscode-eslint",
 		"DavidAnson.vscode-markdownlint",
+		"dbaeumer.vscode-eslint",
+		"EditorConfig.EditorConfig",
 		"Prisma.prisma"
 	]
 }
