@@ -1,4 +1,6 @@
 /* @refresh reload */
+// oxlint-disable-next-line no-unassigned-import
+import "virtual:uno.css";
 import { render } from "solid-js/web";
 import { Application } from "./application.tsx";
 
