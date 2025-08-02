@@ -10,8 +10,5 @@
 		"source.fixAll.eslint": "explicit",
 		"source.fixAll.markdownlint": "explicit"
 	},
-	"typescript.tsdk": "node_modules\\typescript\\lib",
-	"workbench.editorAssociations": {
-		"*.db": "sqlite-viewer.view"
-	}
+	"typescript.tsdk": "node_modules\\typescript\\lib"
 }
